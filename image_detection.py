@@ -5,7 +5,7 @@ import cv2
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-i", "--image", default="example_05.jpg",
+ap.add_argument("-i", "--image", default="example_01.jpg",
 	help="path to input image")
 ap.add_argument("-p", "--prototxt", default="MobileNetSSD_deploy.prototxt.txt",
 	help="path to Caffe 'deploy' prototxt file")
