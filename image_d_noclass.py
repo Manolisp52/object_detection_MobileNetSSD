@@ -77,5 +77,5 @@ for i in np.arange(0, detections.shape[2]):
 
 
 cv2.imshow("Output", image)
-cv2.imwrite('image_detected.jpg',image)
+# cv2.imwrite('image_detected.jpg',image)
 cv2.waitKey(0)
